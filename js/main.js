@@ -332,3 +332,71 @@
 // const ikkinchiAyirma = birinchiAyirma - onlarXonasi;
 // const birlarXonasi = Math.round(ikkinchiAyirma*10)
 // alert(Number(`${birlarXonasi}${yuzlarXonasi}${onlarXonasi}`));
+
+/* 15 */
+
+// const son = Number(prompt("Uch xonali son kiriting"));
+// const yuzlarXonasi = Math.trunc(son/100);
+// const birinchiAyirma = (son/100 - yuzlarXonasi)*10;
+// const onlarXonasi = Math.trunc(birinchiAyirma);
+// const ikkinchiAyirma = birinchiAyirma - onlarXonasi;
+// const birlarXonasi = Math.round(ikkinchiAyirma*10)
+// alert(Number(`${onlarXonasi}${yuzlarXonasi}${birlarXonasi}`));
+
+/* 16 */
+
+// const son = Number(prompt("Uch xonali son kiriting"));
+// const yuzlarXonasi = Math.trunc(son/100);
+// const birinchiAyirma = (son/100 - yuzlarXonasi)*10;
+// const onlarXonasi = Math.trunc(birinchiAyirma);
+// const ikkinchiAyirma = birinchiAyirma - onlarXonasi;
+// const birlarXonasi = Math.round(ikkinchiAyirma*10)
+// alert(Number(`${yuzlarXonasi}${birlarXonasi}${onlarXonasi}`));
+
+/* 17 */
+
+// const a =Number(prompt("4 xonali osn kiriting:"));
+// const b = a%1000;
+// const c = Math.trunc(b/100);
+// alert(Number(`${c}`));
+
+/* 18 */
+
+// const a =Number(prompt("4 xonali osn kiriting:"));
+// const b = Math.trunc(a/1000);
+// alert(`${b}`)
+
+/* 19 */
+
+// const sekund = Number(prompt("Sekundni kiriting:"));
+// const m = Math.floor(sekund/60);
+// alert(Number(`${m}`))
+
+/* 20 */
+
+// const sekund = Number(prompt("Sekundni kiriting:"));
+// const h = Math.floor(sekund/3600);
+// alert(`${h}`);
+
+/* 21 */
+
+// const sekund = Number(prompt("Sekundni kiriting:"));
+// const minutes = Math.floor(sekund / 60);
+// const seconds = sekund % 60;
+// alert(`${minutes} ${seconds}`)
+
+/* 22 */
+
+// const sekund = Number(prompt("Sekundni kiriting:"));
+// const h = Math.floor(sekund / 3600);
+// const seconds = sekund % 60;
+// alert(`${h} ${seconds}`)
+
+/* 23 */
+
+// const sekund = Number(prompt("Sekundni kiriting:"));
+// const h = Math.floor(sekund / 3600);
+// const qoldiq = sekund % 3600;
+// const minutes = Math.floor(qoldiq / 60);
+// const seconds = qoldiq % 60;
+// alert(`${h} ${minutes} ${seconds}`);
