@@ -400,3 +400,127 @@
 // const minutes = Math.floor(qoldiq / 60);
 // const seconds = qoldiq % 60;
 // alert(`${h} ${minutes} ${seconds}`);
+
+/* Boolean */
+/* 2 */
+
+// const a = Number(prompt());
+// const result = a%2 > 0;
+// alert(`${result}`);
+
+/* 4 */
+
+// const a = Number(prompt());
+// const b = Number(prompt());
+// const resultA = a > 2;
+// const resultB = b <= 3;
+// alert(resultA == resultB);
+
+/* 5 */
+
+// const a = Number(prompt());
+// const b = Number(prompt());
+// const resultA = a >= 0;
+// const resultB = b < -2;
+// alert(resultA == resultB);
+
+/* 6 */
+
+// const a = Number(prompt());
+// const b = Number(prompt());
+// const c = Number(prompt());
+// const result = a <= b <= c;
+// alert(result);
+
+/* 7 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const c = Number(prompt("Sonni kiriting:"));
+// const result = a < b < c;
+// alert(result);
+
+/* 8 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const resultA = a%2 > 0;
+// const resultB = b%2 > 0;
+// alert(resultA == resultB)
+
+/* 9 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const resultA = a%2 > 0;
+// const resultB = b%2 > 0;
+// alert(`${resultA} ${resultB}`);
+
+/* 10 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const result = (a % 2 == 1) || (b % 2 == 1);
+// alert(result);
+
+/* 11 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const result = a % 2 === b % 2;
+// alert(result);
+
+/* 12 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const c = Number(prompt("Sonni kiriting:"));
+// const resultA = a > 0;
+// const resultB = b > 0;
+// const resultC = c > 0;
+// alert(resultA == resultB == resultC)
+
+/* 13 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const c = Number(prompt("Sonni kiriting:"));
+// const resultA = a > 0;
+// const resultB = b > 0;
+// const resultC = c > 0;
+// const result = Boolean(resultA+resultB+resultC);
+// alert(result);
+
+/* 14 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const c = Number(prompt("Sonni kiriting:"));
+// const resultA = a > 0;
+// const resultB = b > 0;
+// const resultC = c > 0;
+// const result = resultA+resultB+resultC;
+// alert(result == 1);
+
+/* 15 */
+
+// const a = Number(prompt("Sonni kiriting:"));
+// const b = Number(prompt("Sonni kiriting:"));
+// const c = Number(prompt("Sonni kiriting:"));
+// const resultA = a > 0;
+// const resultB = b > 0;
+// const resultC = c > 0;
+// const result = resultA+resultB+resultC;
+// alert(result == 2);
+
+/* 16 */
+
+// const a = Number(prompt("Ikki xonali son kiriting:"));
+// const result = a%2 == 0;
+// alert(result)
+
+/* 17 */
+
+// const a = Number(prompt("Uch xonali son kiriting:"));
+// const result = a%2 > 0;
+// alert(result);
