@@ -87,7 +87,7 @@
 
 // const r1 = Number(prompt("Sonni kiriting:"));
 // const r2 = Number(prompt("Sonni kiriting"));
-// const pi = Math.PI; 
+// const pi = Math.PI;
 // const s1 = pi*r1;
 // const s2 = pi*r2;
 // const s3 = pi*(r1-r2);
@@ -524,3 +524,243 @@
 // const a = Number(prompt("Uch xonali son kiriting:"));
 // const result = a%2 > 0;
 // alert(result);
+
+/* if */
+/* 1 */
+// let a = Number(prompt())
+// if (a > 0) {
+//     alert(a + 1)
+// }
+// else{
+//     alert(a - 2)
+// }
+
+/* 8 */
+// let a = Number(prompt());
+// let b = Number(prompt());
+// if (a > 0) {
+//     alert(a + "  va  " + b);
+// }
+// else {
+//     alert(a + "  va  " + b)
+// }
+
+/* 10 */
+// let a = Number(prompt());
+// let b = Number(prompt());
+// let c = 0;
+// if (a < b || b < a) {
+//     alert(a+b);
+// }
+// else if (a == b){
+//     a = c;
+//     b = c;
+//     alert(a + "  "  + b);
+// }
+
+/* 11 */
+// const a = Number(prompt());
+// const b = Number(prompt());
+// const c = 0;
+// if (a > b || b > a) {
+//     alert(Math.max(a,b));
+// }
+// else if (a == b) {
+//     alert(c);
+// }
+
+/* 12 */
+// const a = Number(prompt());
+// const b = Number(prompt());
+// const c = Number(prompt());
+// alert(Math.min(a,b,c));
+
+/* 13 */
+// let a = Number(prompt());
+// let b = Number(prompt());
+// let c = Number(prompt());
+// let middle;
+// if ((a > b && a < c) || (a < b && a > c)) {
+//     middle = a;
+//     alert(a);
+// } else if ((b > a && b < c) || (b < a && b > c)) {
+//     middle = b;
+//     alert(b);
+// } else {
+//     middle = c;
+//     alert(c);
+// }
+
+/* 14 */
+// let a = Number(prompt());
+// let b = Number(prompt());
+// let c = Number(prompt());
+// alert(Math.min(a,b,c) + "  " + Math.max(a,b,c));
+
+/* 16 */
+// let a = Number(prompt());
+// let b = Number(prompt());
+// let c = Number(prompt());
+// if (a < b && b < c) {
+//     a = a*2;
+//     b = b*2;
+//     c = c*2;
+//     alert(a + "  " + b + "  " + c);
+// }
+// else {
+//     a = -a;
+//     b = -b;
+//     c = -c;
+//     alert(a + "  " + b + "  " + c);
+// }
+
+/* 17 */
+// let a = Number(prompt());
+// let b = Number(prompt());
+// let c = Number(prompt());
+// if ((a < b && b < c) || (a > b && b > c)) {
+//     a = a*2;
+//     b = b*2;
+//     c = c*2;
+//     alert(a + "  " + b + "  " + c);
+// }
+// else {
+//     a = -a;
+//     b = -b;
+//     c = -c;
+//     alert(a + "  " + b + "  " + c);
+// }
+
+/* case */
+/* 2 */
+// let a = Number(prompt("1-5 son kiriting:"));
+// switch (a) {
+//     case 1:
+//         alert("yomon");
+//         break;
+//     case 2:
+//         alert("qoniqarsiz");
+//         break;
+//     case 3:
+//         alert("qoniqarli");
+//         break;
+//     case 4:
+//     alert("yaxshi");
+//     break;
+//     case 5:
+//         alert("a'lo");
+//         break;
+//     default:
+//         alert("xato");
+//         break;
+// }
+
+/* 3 */
+// let a = Number(prompt("1-12gacha son kiriting:"));
+// switch (a) {
+//     case 1:
+//         alert("qish");
+//         break;
+//     case 2:
+//         alert("qish");
+//     break;
+//     case 3:
+//         alert("bahor");
+//     break;
+//     case 4:
+//         alert("bahor");
+//     break;
+//     case 5:
+//         alert("bahor");
+//     break;
+//     case 6:
+//         alert("yoz");
+//     break;
+//     case 7:
+//         alert("yoz");
+//     break;
+//     case 8:
+//         alert("yoz");
+//     break;
+//     case 9:
+//         alert("kuz");
+//     break;
+//     case 10:
+//         alert("kuz");
+//     break;
+//     case 11:
+//         alert("kuz");
+//     break;
+//     case 12:
+//         alert("qish");
+//     break;
+//     default:
+//         alert("xato qiymat!!!")
+//         break;
+// }
+
+/* 4 */
+// let a = Number(prompt("1-12gacha son kiriting:"));
+// switch (a) {
+//     case 1:
+//         alert("31");
+//         break;
+//     case 2:
+//         alert("28");
+//     break;
+//     case 3:
+//         alert("31");
+//     break;
+//     case 4:
+//         alert("30");
+//     break;
+//     case 5:
+//         alert("31");
+//     break;
+//     case 6:
+//         alert("30");
+//     break;
+//     case 7:
+//         alert("31");
+//     break;
+//     case 8:
+//         alert("31");
+//     break;
+//     case 9:
+//         alert("30");
+//     break;
+//     case 10:
+//         alert("31");
+//     break;
+//     case 11:
+//         alert("30");
+//     break;
+//     case 12:
+//         alert("30");
+//     break;
+//     default:
+//         alert("xato qiymat!!!")
+//         break;
+// }
+
+/* 5 */
+// let a = Number(prompt("A sonni kiriting:"));
+// let b = Number(prompt("B sonni kiriting:"));
+// let c = Number(prompt("1-7 son kiriting:"));
+// switch (c) {
+//     case 1:
+//         alert(a + b);
+//         break;
+//     case 2:
+//         alert(a - b);
+//         break;
+//     case 3:
+//         alert(a / b);
+//         break;
+//     case 4:
+//         alert(a * b);
+//         break;
+//     default:
+//         alert("xato qiymat!!!")
+//         break;
+// }
